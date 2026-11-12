@@ -2,10 +2,19 @@
   "name": "msys",
   "private": true,
   "type": "module",
-  "workspaces": ["tools", "site"],
+  "workspaces": [
+    "tools",
+    "site"
+  ],
   "scripts": {
     "graph": "bun tools/pkgbuild-graph.ts && bun tools/vcpkg-map.ts",
     "site": "bun tools/site.ts",
     "serve": "bun tools/site.ts --serve"
-  }
+  },
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrody-labs/msys.git"
+  },
+  "description": "msys (Aphrody)"
 }

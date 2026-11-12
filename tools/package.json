@@ -1,1 +1,12 @@
-{"name":"@msys/tools","private":true,"type":"module"}
+{
+  "name": "@msys/tools",
+  "private": true,
+  "type": "module",
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphrody-labs/msys.git",
+    "directory": "tools"
+  },
+  "description": "@msys/tools (Aphrody)"
+}
