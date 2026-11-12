@@ -37,6 +37,8 @@ Machine-checked: each row is a directory (trailing `/`) or file that must exist;
 | `pins.toml` | 0 | references into src/labs (never copied); src/third_party wins |
 | `justfile` | 8 | all entry points (`just graph`, `xmap`, `site`, `check`, `prd`) |
 | `package.json` | 8 | bun workspaces (`tools`, `site`) and scripts |
+| `LICENSE-MIT` | 8 | licence (MIT OR Apache-2.0) |
+| `LICENSE-APACHE` | 8 | licence (MIT OR Apache-2.0) |
 | `.gitignore` | 8 | ignores third_party/, site/dist/, big graph outputs, logs |
 | `toolchains/` | 1 | toolchain pins and usage notes (README = LLVM-pure policy) |
 | `toolchains/llvm/` | 1 | clang, clang-cl, lld/lld-link, compiler-rt, libc++; Chromium clang pin; llvm-mingw sysroot |
