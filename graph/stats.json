@@ -1,0 +1,43 @@
+{
+  "pkgbuilds": 3985,
+  "nodes": 13872,
+  "edges": 114769,
+  "stats": {
+    "msys": {
+      "pkgbases": 595,
+      "packages": 782,
+      "dep": 2715,
+      "make": 3099
+    },
+    "ucrt64": {
+      "pkgbases": 3385,
+      "packages": 3853,
+      "dep": 15441,
+      "make": 16803
+    },
+    "clang64": {
+      "pkgbases": 3318,
+      "packages": 3763,
+      "dep": 14691,
+      "make": 16243
+    },
+    "clangarm64": {
+      "pkgbases": 3277,
+      "packages": 3730,
+      "dep": 14479,
+      "make": 16066
+    },
+    "mingw64": {
+      "pkgbases": 1411,
+      "packages": 1631,
+      "dep": 5995,
+      "make": 7335
+    },
+    "mingw32": {
+      "pkgbases": 66,
+      "packages": 113,
+      "dep": 1041,
+      "make": 861
+    }
+  }
+}

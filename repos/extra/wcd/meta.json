@@ -1,0 +1,18 @@
+{
+  "pkgbase": "wcd",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/wcd",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "sys-utils"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

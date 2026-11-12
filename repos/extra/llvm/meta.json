@@ -1,0 +1,16 @@
+{
+  "pkgbase": "llvm",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/llvm",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": "pins.toml:src.cachyos.pkgbuilds/llvm",
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

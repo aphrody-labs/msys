@@ -1,0 +1,16 @@
+{
+  "pkgbase": "windows-default-manifest",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/windows-default-manifest",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

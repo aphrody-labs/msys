@@ -1,0 +1,19 @@
+{
+  "pkgbase": "nghttp2",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/nghttp2",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "libraries",
+    "development"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

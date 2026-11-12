@@ -1,0 +1,16 @@
+{
+  "pkgbase": "base-devel",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/base-devel",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

@@ -1,0 +1,42 @@
+# External sources referenced (never copied) by C:\msys. Source of truth: C:\src\third_party (wins on conflict).
+# Paths relative to C:\msys.
+[src]
+lock = "../src/src.lock.json"
+
+[src.cachyos]
+pkgbuilds = "../src/third_party/CachyOS-PKGBUILDS"           # CachyOS PKGBUILDs + patches
+makepkg_conf = "../src/third_party/CachyOS-PKGBUILDS/pacman/makepkg.conf"
+settings = "../src/third_party/CachyOS-PKGBUILDS/cachyos-settings"
+chroot = "../src/third_party/cachy-chroot"
+wsl = "../src/third_party/cachyos-wsl"
+
+[src.upstreams]
+mingw-w64 = { path = "../src/third_party/mingw-w64", remote = "https://github.com/aphrody-labs/mingw-w64.git", upstream = "mingw-w64/mingw-w64 (mirror of sourceforge mingw-w64-code)" }
+wine = { path = "../src/third_party/wine", remote = "https://github.com/aphrody-labs/wine.git" }
+git = { path = "../src/third_party/git", remote = "https://github.com/aphrody-labs/git.git", upstream = "microsoft/git" }
+pacman = { path = "../src/third_party/pacman", upstream = "https://gitlab.archlinux.org/pacman/pacman.git" }
+llvm-project = { path = "../src/third_party/llvm-project" }
+vcpkg = { path = "../src/third_party/vcpkg" }
+archlinux-docker = { path = "../src/third_party/archlinux-docker" }
+pkg-linux = { path = "../src/third_party/pkg-linux" }
+linux = { path = "../src/third_party/linux" }
+
+[labs]
+vcpkg_triplets = "../labs/infra/vcpkg/triplets"
+vcpkg_toolchains = "../labs/infra/vcpkg/toolchains"
+toolchain = "../labs/third_party/toolchain-157.toml"
+
+# Forked into aphrody-labs but intentionally not cloned here (dedupe / size).
+[reference_only]
+cygwin = "aphrody-labs/cygwin <- cygwin/cygwin (mirror of sourceware newlib-cygwin); history contained in third_party/msys2-runtime"
+gfw-git = "aphrody-labs/gfw-git <- git-for-windows/git; ../src/third_party/git (microsoft/git) covers it"
+gfw-MINGW-packages = "aphrody-labs/gfw-MINGW-packages <- git-for-windows/MINGW-packages (fork of msys2 MINGW-packages)"
+gfw-MSYS2-packages = "aphrody-labs/gfw-MSYS2-packages <- git-for-windows/MSYS2-packages"
+gfw-msys2-runtime = "aphrody-labs/gfw-msys2-runtime <- git-for-windows/msys2-runtime"
+MINGW-packages-dev = "aphrody-labs/MINGW-packages-dev (47 MB, dev branch scratch)"
+msys2-finances = "aphrody-labs/msys2-finances (non-code)"
+msys2-sourceforge-export = "aphrody-labs/msys2-sourceforge-export (archive)"
+msys2-twitter-export = "aphrody-labs/msys2-twitter-export (archive)"
+git-sdk-64 = "git-for-windows/git-sdk-64 (25 GB) - not forked, reference only"
+msys2-dot-github = "msys2/.github - not forked (would become org profile)"
+cygwin-openssl = "cygwin/openssl - not forked (generic openssl fork)"

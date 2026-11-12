@@ -1,0 +1,18 @@
+{
+  "pkgbase": "mingw-w64-onefetch",
+  "repo": "mingw",
+  "source": "../../../third_party/MINGW-packages/mingw-w64-onefetch",
+  "envs": [
+    "ucrt64",
+    "clang64",
+    "clangarm64"
+  ],
+  "groups": [],
+  "toolchain": "gcc+llvm",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "msys-compat",
+  "version-string": "0",
+  "description": "Ports matching MSYS2 mingw packages (see MAPPING.md). Built on prd only.",
+  "dependencies": []
+}

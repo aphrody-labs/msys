@@ -1,0 +1,18 @@
+{
+  "pkgbase": "mingw-w64-cross-clang-headers",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/mingw-w64-cross-clang-headers",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "mingw-w64-cross-clang-toolchain"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

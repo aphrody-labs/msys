@@ -1,0 +1,16 @@
+{
+  "pkgbase": "pacman-contrib",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/pacman-contrib",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": "pins.toml:src.cachyos.pkgbuilds/pacman-contrib",
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

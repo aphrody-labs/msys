@@ -1,0 +1,19 @@
+{
+  "pkgbase": "lz4",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/lz4",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "libraries",
+    "development"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": "pins.toml:src.cachyos.pkgbuilds/lz4",
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

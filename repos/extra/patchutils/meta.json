@@ -1,0 +1,16 @@
+{
+  "pkgbase": "patchutils",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/patchutils",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

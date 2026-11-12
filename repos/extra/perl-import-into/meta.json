@@ -1,0 +1,18 @@
+{
+  "pkgbase": "perl-import-into",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/perl-import-into",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "perl-modules"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

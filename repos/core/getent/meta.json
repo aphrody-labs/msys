@@ -1,0 +1,16 @@
+{
+  "pkgbase": "getent",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/getent",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pkgbase": "pcre",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/pcre",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "libraries",
+    "libraries",
+    "libraries",
+    "libraries",
+    "libraries",
+    "development"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

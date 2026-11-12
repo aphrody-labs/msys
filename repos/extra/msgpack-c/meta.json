@@ -1,0 +1,19 @@
+{
+  "pkgbase": "msgpack-c",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/msgpack-c",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "libraries",
+    "development"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

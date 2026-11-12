@@ -1,0 +1,16 @@
+{
+  "pkgbase": "zsh",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/zsh",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": "pins.toml:src.cachyos.pkgbuilds/zsh",
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

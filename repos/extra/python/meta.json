@@ -1,0 +1,16 @@
+{
+  "pkgbase": "python",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/python",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": "pins.toml:src.cachyos.pkgbuilds/python",
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

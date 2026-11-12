@@ -1,0 +1,16 @@
+{
+  "pkgbase": "automake1.12",
+  "repo": "extra",
+  "source": "../../../third_party/MSYS2-packages/automake1.12",
+  "envs": [
+    "msys"
+  ],
+  "groups": [],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}

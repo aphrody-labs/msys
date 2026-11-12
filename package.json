@@ -1,0 +1,11 @@
+{
+  "name": "msys",
+  "private": true,
+  "type": "module",
+  "workspaces": ["tools", "site"],
+  "scripts": {
+    "graph": "bun tools/pkgbuild-graph.ts && bun tools/vcpkg-map.ts",
+    "site": "bun tools/site.ts",
+    "serve": "bun tools/site.ts --serve"
+  }
+}

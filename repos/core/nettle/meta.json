@@ -1,0 +1,21 @@
+{
+  "pkgbase": "nettle",
+  "repo": "core",
+  "source": "../../../third_party/MSYS2-packages/nettle",
+  "envs": [
+    "msys"
+  ],
+  "groups": [
+    "net-utils",
+    "libraries",
+    "libraries",
+    "development"
+  ],
+  "toolchain": "gcc (cygwin)",
+  "cachyos": null,
+  "isa_targets": [
+    "x86-64-v3",
+    "x86-64-v4",
+    "znver4"
+  ]
+}
