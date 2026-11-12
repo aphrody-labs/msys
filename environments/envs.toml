@@ -1,0 +1,14 @@
+# Single env table (MSYS2 environments + native MSVC). Read by tools; upstream facts from third_party/MSYS2-packages + graph/graph.json (envs).
+# isa = target variants built by buildsys/makepkg; upstream baseline in comment.
+# POSIX env, links msys-2.0.dll (runtimes/msys2-runtime)
+msys = { prefix = "/usr", pkg_prefix = "", toolchain = "gcc-cygwin", crt = "cygwin", cxx = "libstdc++", arch = ["x86_64"], isa = ["x86-64-v3"], role = "posix-tools" }
+ucrt64 = { prefix = "/ucrt64", pkg_prefix = "mingw-w64-ucrt-x86_64", toolchain = "gcc", crt = "ucrt", cxx = "libstdc++", arch = ["x86_64"], isa = ["x86-64-v3", "x86-64-v4", "znver4"], role = "parity" }
+# primary native env
+clang64 = { prefix = "/clang64", pkg_prefix = "mingw-w64-clang-x86_64", toolchain = "llvm", crt = "ucrt", cxx = "libc++", arch = ["x86_64"], isa = ["x86-64-v3", "x86-64-v4", "znver4"], role = "primary" }
+clangarm64 = { prefix = "/clangarm64", pkg_prefix = "mingw-w64-clang-aarch64", toolchain = "llvm", crt = "ucrt", cxx = "libc++", arch = ["aarch64"], isa = ["armv8.2-a"], role = "primary-arm" }
+mingw64 = { prefix = "/mingw64", pkg_prefix = "mingw-w64-x86_64", toolchain = "gcc", crt = "msvcrt", cxx = "libstdc++", arch = ["x86_64"], isa = [], role = "upstream-only (not built)" }
+# MSVC ABI, clang-cl + lld-link, vcpkg/NuGet/MSIX consumers
+msvc-x64 = { prefix = "n/a", pkg_prefix = "", toolchain = "clang-cl", crt = "ucrt+vcruntime", cxx = "msvc-stl", arch = ["x86_64"], isa = ["x86-64-v3", "x86-64-v4", "znver4"], role = "windows-native" }
+msvc-arm64 = { prefix = "n/a", pkg_prefix = "", toolchain = "clang-cl", crt = "ucrt+vcruntime", cxx = "msvc-stl", arch = ["aarch64"], isa = ["armv8.2-a"], role = "windows-native" }
+# glibc reference side, fr2 only (zig cc / clang); not a Windows env
+linux-x64 = { prefix = "/usr", pkg_prefix = "", toolchain = "llvm", crt = "glibc", cxx = "libc++", arch = ["x86_64"], isa = ["x86-64-v3", "x86-64-v4", "znver4"], role = "reference" }

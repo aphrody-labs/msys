@@ -1,6 +1,6 @@
 # Per-package matrix
 
-Generated. `cachy` = a CachyOS PKGBUILD/patch set exists in `C:/src/third_party/CachyOS-PKGBUILDS` (source of truth). ISA: upstream MSYS2 builds -march=nocona -O2 (armv8.1-a for clangarm64), see third_party/MSYS2-packages/pacman/makepkg_mingw.d.*.conf; target variants come from `makepkg/`.
+Generated. `cachy` = a CachyOS PKGBUILD/patch set exists in `$SRC_ROOT/third_party/CachyOS-PKGBUILDS` (source of truth). ISA: upstream MSYS2 builds -march=nocona -O2 (armv8.1-a for clangarm64), see third_party/MSYS2-packages/pacman/makepkg_mingw.d.*.conf; target variants come from `buildsys/makepkg/`.
 
 | pkgbase | repo | envs | LLVM/GCC | cachy | ISA (upstream -> target) |
 |---|---|---|---|---|---|

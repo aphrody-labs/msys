@@ -9,12 +9,12 @@ Sources (clones in `third_party/`, upstream HEADs 2026-11-12): `msys2.github.io/
 | prefix | /usr | /mingw64 | /ucrt64 | /clang64 | /clangarm64 | standalone | /clang64 |
 | arch | x86_64 | x86_64 | x86_64 | x86_64 | aarch64 | i686/x86_64/armv7/aarch64 | x86_64 + aarch64 |
 | CRT | cygwin (msys-2.0.dll) | msvcrt | ucrt | ucrt | ucrt | ucrt (default) / msvcrt | ucrt |
-| toolchain | gcc | gcc 16.2.0 | gcc 16.2.0 | llvm 23.1.5 | llvm 23.1.5 | llvm (llvmorg-23.1.5) | llvm (Chromium 157 clang 24, `toolchain/`) |
+| toolchain | gcc | gcc 16.2.0 | gcc 16.2.0 | llvm 23.1.5 | llvm 23.1.5 | llvm (llvmorg-23.1.5) | llvm (Chromium 157 clang 24, `toolchains/`) |
 | C++ lib | libstdc++ | libstdc++ | libstdc++ | libc++ | libc++ | libc++ | libc++ |
 | linker | ld (binutils) | ld | ld | lld | lld | lld | lld |
 | unwinding | dwarf (cygwin) | seh | seh | seh | seh (arm64) | seh (x86_64/arm64), dwarf (i686) | seh |
 | threading | posix (cygwin) | posix (winpthreads) | posix (winpthreads); mcfgthread pkg available | win32 + winpthreads | win32 + winpthreads | winpthreads | win32 / winpthreads |
-| upstream CFLAGS | -O2 | -march=nocona -msahf -O2 | -march=nocona -msahf -O2 | -march=nocona -msahf -O2 | -march=armv8.1-a -O2 | n/a | -O3 x86-64-v3/v4/znver4 (`makepkg/`) |
+| upstream CFLAGS | -O2 | -march=nocona -msahf -O2 | -march=nocona -msahf -O2 | -march=nocona -msahf -O2 | -march=armv8.1-a -O2 | n/a | -O3 x86-64-v3/v4/znver4 (`buildsys/makepkg/`) |
 | LTO default | no | no (`!lto`) | no (`!lto`) | no (`!lto`) | no (`!lto`) | n/a | ThinLTO |
 | sanitizers | - | - | - | ASan/UBSan (ucrt) | partial | ASan (ucrt only) | ASan |
 
@@ -25,7 +25,7 @@ Notes: MINGW32/CLANG32 legacy, i686 uses dwarf2 (`--with-dwarf2`, `--disable-sjl
 | knob | MSYS2 upstream | CachyOS (Linux) | labs plan (C:\msys) |
 |---|---|---|---|
 | -O | -O2 | -O3 | -O3 |
-| ISA | nocona | x86-64-v3 / v4 / znver4 repos | 3 variants: `makepkg/cachyos-<env>-<isa>.conf` |
+| ISA | nocona | x86-64-v3 / v4 / znver4 repos | 3 variants: `buildsys/makepkg/cachyos-<env>-<isa>.conf` |
 | compiler | gcc (UCRT64), clang (CLANG64) | clang-built packages where possible | clang everywhere (UCRT64 rebased on clang) |
 | LTO | off | `-flto=auto` | `-flto=thin` |
 | PGO / AutoFDO | none | kernel + selected pkgs (autofdo-bin) | per package, profiles from prd; [NV] |

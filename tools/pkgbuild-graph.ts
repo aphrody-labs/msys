@@ -8,8 +8,9 @@ import { join, relative } from "node:path";
 
 const ROOT = join(import.meta.dir, "..");
 const TP = join(ROOT, "third_party");
-// Single source of truth for CachyOS: C:\src\third_party (never copied here).
-const CACHY = process.env.CACHY_PKGBUILDS ?? "C:/src/third_party/CachyOS-PKGBUILDS";
+// Single source of truth for CachyOS: $SRC_ROOT/third_party (never copied here).
+import { SRC } from "./lib/identity.ts";
+const CACHY = process.env.CACHY_PKGBUILDS ?? join(SRC, "third_party/CachyOS-PKGBUILDS");
 
 const ENVS: Record<string, { prefix: string; toolchain: "gcc" | "llvm"; crt: string; arch: string }> = {
   mingw32: { prefix: "mingw-w64-i686", toolchain: "gcc", crt: "msvcrt", arch: "i686" },
@@ -135,8 +136,8 @@ const coreClosure = new Set<string>();
   while (st.length) { const n = st.pop()!; if (coreClosure.has(n)) continue; coreClosure.add(n); st.push(...(dep.get(n) ?? [])); }
 }
 // Arch-style repo view: repos/{core,extra,mingw}/<pkgbase>/meta.json (pointers only, no copies).
-const repos = join(ROOT, "repos"); rmSync(repos, { recursive: true, force: true });
-let mat = "# Per-package matrix\n\nGenerated. `cachy` = a CachyOS PKGBUILD/patch set exists in `C:/src/third_party/CachyOS-PKGBUILDS` (source of truth). ISA: upstream MSYS2 builds -march=nocona -O2 (armv8.1-a for clangarm64), see third_party/MSYS2-packages/pacman/makepkg_mingw.d.*.conf; target variants come from `makepkg/`.\n\n| pkgbase | repo | envs | LLVM/GCC | cachy | ISA (upstream -> target) |\n|---|---|---|---|---|---|\n";
+const repos = join(ROOT, "repos"); for (const r of ["core", "extra", "mingw"]) rmSync(join(repos, r), { recursive: true, force: true }); // keep repos/README.md
+let mat = "# Per-package matrix\n\nGenerated. `cachy` = a CachyOS PKGBUILD/patch set exists in `$SRC_ROOT/third_party/CachyOS-PKGBUILDS` (source of truth). ISA: upstream MSYS2 builds -march=nocona -O2 (armv8.1-a for clangarm64), see third_party/MSYS2-packages/pacman/makepkg_mingw.d.*.conf; target variants come from `buildsys/makepkg/`.\n\n| pkgbase | repo | envs | LLVM/GCC | cachy | ISA (upstream -> target) |\n|---|---|---|---|---|---|\n";
 for (const p of pkgs.sort((a, b) => a.base.localeCompare(b.base))) {
   const r = p.repo === "mingw" ? "mingw" : (p.groups.some((g) => CORE_GROUPS.has(g)) || CORE_NAMES.has(p.base) || p.names.some((n) => coreClosure.has(n)) ? "core" : "extra");
   const rn = real(p.base);

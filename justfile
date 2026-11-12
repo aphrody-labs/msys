@@ -1,4 +1,4 @@
-# C:\msys — source/research monorepo for MSYS2 / MinGW-w64. No local compilation.
+# msys (name in identity.toml): source/metadata distribution for MSYS2 / MinGW-w64 + Windows-native bridges. No local compilation.
 set shell := ["bash", "-c"]
 
 # clone missing repos (sequential, partial)
@@ -20,15 +20,26 @@ push-forks:
 graph:
     bun tools/pkgbuild-graph.ts && bun tools/vcpkg-map.ts
 
+# cross-ecosystem map (top 300 by reverse deps); add --offline to skip nuget/psgallery probes
+xmap *args: graph
+    bun tools/xmap.ts {{args}}
+
+# assert tree == docs/ARCHITECTURE.md
+check:
+    bun tools/check-structure.ts
+
 outline:
     for d in third_party/*/; do ay ingest --outline -m 60000 -o "graph/outline/$(basename $d).md" "$d" >/dev/null; done
 
-site: graph
+site: xmap
     bun tools/site.ts
 
 serve:
     bun tools/site.ts --serve
 
-# heavy work goes to prd
+# heavy work goes to fr2
 prd cmd:
-    ssh prd "nice -n 19 {{cmd}}"
+    ssh cdn "nice -n 19 {{cmd}}"
+
+# full regen + verification
+all: site check

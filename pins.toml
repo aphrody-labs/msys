@@ -21,6 +21,14 @@ archlinux-docker = { path = "../src/third_party/archlinux-docker" }
 pkg-linux = { path = "../src/third_party/pkg-linux" }
 linux = { path = "../src/third_party/linux" }
 
+[src.windows]   # Windows-native ecosystem (formats/, compat/windows, toolchains/)
+dsc = { path = "../src/third_party/DSC" }                    # DSC v3
+powershell = { path = "../src/third_party/PowerShell" }
+winget-pkgs = { path = "../src/third_party/winget-pkgs" }    # tree used by tools/xmap.ts
+winget-cli = { path = "../src/third_party/winget-cli" }
+windows-app-sdk = { path = "../src/third_party/WindowsAppSDK" }
+windows-rs = { path = "../src/third_party/windows-rs" }
+
 [labs]
 vcpkg_triplets = "../labs/infra/vcpkg/triplets"
 vcpkg_toolchains = "../labs/infra/vcpkg/toolchains"

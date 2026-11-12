@@ -1,0 +1,4704 @@
+[
+ {
+  "rank": 1,
+  "name": "python3.14",
+  "rdeps": 1138,
+  "pkgbases": [
+   "mingw-w64-python3.14"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "Python.Python.3.14",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 2,
+  "name": "gcc",
+  "rdeps": 1079,
+  "pkgbases": [
+   "gcc",
+   "mingw-w64-gcc"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 3,
+  "name": "ninja",
+  "rdeps": 1025,
+  "pkgbases": [
+   "mingw-w64-ninja",
+   "ninja"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "Ninja-build.Ninja",
+  "nuget": "ninja",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 4,
+  "name": "python-installer",
+  "rdeps": 1018,
+  "pkgbases": [
+   "mingw-w64-python-installer",
+   "python-installer"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 5,
+  "name": "python-build",
+  "rdeps": 1013,
+  "pkgbases": [
+   "mingw-w64-python-build",
+   "python-build"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 6,
+  "name": "cmake",
+  "rdeps": 963,
+  "pkgbases": [
+   "cmake",
+   "mingw-w64-cmake"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "Kitware.CMake",
+  "nuget": "cmake",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 7,
+  "name": "python-setuptools",
+  "rdeps": 753,
+  "pkgbases": [
+   "mingw-w64-python-setuptools",
+   "python-setuptools"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 8,
+  "name": "autotools",
+  "rdeps": 676,
+  "pkgbases": [
+   "autotools",
+   "mingw-w64-autotools"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 9,
+  "name": "pkgconf",
+  "rdeps": 486,
+  "pkgbases": [
+   "mingw-w64-pkgconf",
+   "pkgconf"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "pkgconf",
+  "winget": "pkgconf.pkgconf",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget"
+  ]
+ },
+ {
+  "rank": 10,
+  "name": "perl",
+  "rdeps": 349,
+  "pkgbases": [
+   "mingw-w64-perl",
+   "perl"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 11,
+  "name": "zlib",
+  "rdeps": 332,
+  "pkgbases": [
+   "mingw-w64-zlib",
+   "zlib"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "zlib",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 12,
+  "name": "git",
+  "rdeps": 284,
+  "pkgbases": [
+   "git",
+   "mingw-w64-git"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "Git.Git",
+  "nuget": "git",
+  "psgallery": "git",
+  "heuristic": [
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 13,
+  "name": "gettext",
+  "rdeps": 247,
+  "pkgbases": [
+   "gettext",
+   "mingw-w64-gettext"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "gettext",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 14,
+  "name": "make",
+  "rdeps": 244,
+  "pkgbases": [
+   "make",
+   "mingw-w64-make"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "make",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 15,
+  "name": "meson",
+  "rdeps": 238,
+  "pkgbases": [
+   "meson",
+   "mingw-w64-meson"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 16,
+  "name": "qt6-base",
+  "rdeps": 202,
+  "pkgbases": [
+   "mingw-w64-qt6-base"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 17,
+  "name": "glib2",
+  "rdeps": 190,
+  "pkgbases": [
+   "glib2",
+   "mingw-w64-glib2"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 18,
+  "name": "rust",
+  "rdeps": 179,
+  "pkgbases": [
+   "mingw-w64-rust",
+   "rust"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "rust",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 19,
+  "name": "openssl",
+  "rdeps": 165,
+  "pkgbases": [
+   "mingw-w64-openssl",
+   "openssl"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "openssl",
+  "winget": "",
+  "nuget": "openssl",
+  "psgallery": "openssl",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 20,
+  "name": "winpthreads",
+  "rdeps": 164,
+  "pkgbases": [
+   "mingw-w64-winpthreads"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 21,
+  "name": "libiconv",
+  "rdeps": 143,
+  "pkgbases": [
+   "libiconv",
+   "mingw-w64-libiconv"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libiconv",
+  "winget": "",
+  "nuget": "libiconv",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 22,
+  "name": "libxml2",
+  "rdeps": 140,
+  "pkgbases": [
+   "libxml2",
+   "mingw-w64-libxml2"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libxml2",
+  "winget": "",
+  "nuget": "libxml2",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 23,
+  "name": "python-hatchling",
+  "rdeps": 138,
+  "pkgbases": [
+   "mingw-w64-python-hatchling",
+   "python-hatchling"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 24,
+  "name": "qt6-tools",
+  "rdeps": 124,
+  "pkgbases": [
+   "mingw-w64-qt6-tools"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 25,
+  "name": "python",
+  "rdeps": 121,
+  "pkgbases": [
+   "python"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "Python.Python",
+  "nuget": "python",
+  "psgallery": "",
+  "heuristic": [
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 26,
+  "name": "libpng",
+  "rdeps": 120,
+  "pkgbases": [
+   "mingw-w64-libpng"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libpng",
+  "winget": "",
+  "nuget": "libpng",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 27,
+  "name": "gobject-introspection",
+  "rdeps": 113,
+  "pkgbases": [
+   "mingw-w64-gobject-introspection"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gobject-introspection",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 28,
+  "name": "zstd",
+  "rdeps": 110,
+  "pkgbases": [
+   "mingw-w64-zstd",
+   "zstd"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "zstd",
+  "winget": "",
+  "nuget": "zstd",
+  "psgallery": "zstd",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 29,
+  "name": "boost",
+  "rdeps": 107,
+  "pkgbases": [
+   "mingw-w64-boost"
+  ],
+  "repo": "mingw",
+  "vcpkg": "boost",
+  "winget": "",
+  "nuget": "boost",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 30,
+  "name": "python-numpy",
+  "rdeps": 104,
+  "pkgbases": [
+   "mingw-w64-python-numpy"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 31,
+  "name": "python-setuptools-scm",
+  "rdeps": 103,
+  "pkgbases": [
+   "mingw-w64-python-setuptools-scm",
+   "python-setuptools-scm"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 32,
+  "name": "doxygen",
+  "rdeps": 93,
+  "pkgbases": [
+   "doxygen",
+   "mingw-w64-doxygen"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "doxygen",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 33,
+  "name": "cython",
+  "rdeps": 92,
+  "pkgbases": [
+   "cython",
+   "mingw-w64-cython"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 34,
+  "name": "gmp",
+  "rdeps": 90,
+  "pkgbases": [
+   "gmp",
+   "mingw-w64-gmp"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "gmp",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 35,
+  "name": "python-packaging",
+  "rdeps": 88,
+  "pkgbases": [
+   "mingw-w64-python-packaging",
+   "python-packaging"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 36,
+  "name": "qt6-declarative",
+  "rdeps": 88,
+  "pkgbases": [
+   "mingw-w64-qt6-declarative"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 37,
+  "name": "cairo",
+  "rdeps": 87,
+  "pkgbases": [
+   "mingw-w64-cairo"
+  ],
+  "repo": "mingw",
+  "vcpkg": "cairo",
+  "winget": "Cairo.Cairo",
+  "nuget": "cairo",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 38,
+  "name": "freetype",
+  "rdeps": 86,
+  "pkgbases": [
+   "mingw-w64-freetype"
+  ],
+  "repo": "mingw",
+  "vcpkg": "freetype",
+  "winget": "",
+  "nuget": "freetype",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 39,
+  "name": "extra-cmake-modules",
+  "rdeps": 85,
+  "pkgbases": [
+   "mingw-w64-extra-cmake-modules"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 40,
+  "name": "rsync",
+  "rdeps": 85,
+  "pkgbases": [
+   "rsync"
+  ],
+  "repo": "extra",
+  "vcpkg": "librsync",
+  "winget": "",
+  "nuget": "rsync",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 41,
+  "name": "llvm",
+  "rdeps": 81,
+  "pkgbases": [
+   "llvm",
+   "mingw-w64-llvm"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "llvm",
+  "winget": "LLVM.LLVM",
+  "nuget": "llvm",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 42,
+  "name": "curl",
+  "rdeps": 80,
+  "pkgbases": [
+   "curl",
+   "mingw-w64-curl"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "curl",
+  "winget": "cURL.cURL",
+  "nuget": "curl",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 43,
+  "name": "gtk-doc",
+  "rdeps": 79,
+  "pkgbases": [
+   "gtk-doc",
+   "mingw-w64-gtk-doc"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 44,
+  "name": "python-flit-core",
+  "rdeps": 79,
+  "pkgbases": [
+   "mingw-w64-python-flit-core",
+   "python-flit-core"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 45,
+  "name": "libjpeg-turbo",
+  "rdeps": 77,
+  "pkgbases": [
+   "mingw-w64-libjpeg-turbo"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libjpeg-turbo",
+  "winget": "libjpeg-turbo.libjpeg-turbo",
+  "nuget": "libjpeg-turbo",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 46,
+  "name": "gtk3",
+  "rdeps": 70,
+  "pkgbases": [
+   "mingw-w64-gtk3"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gtk3",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 47,
+  "name": "libtiff",
+  "rdeps": 67,
+  "pkgbases": [
+   "mingw-w64-libtiff"
+  ],
+  "repo": "mingw",
+  "vcpkg": "tiff",
+  "winget": "",
+  "nuget": "libtiff",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 48,
+  "name": "pango",
+  "rdeps": 64,
+  "pkgbases": [
+   "mingw-w64-pango"
+  ],
+  "repo": "mingw",
+  "vcpkg": "pango",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 49,
+  "name": "sqlite",
+  "rdeps": 62,
+  "pkgbases": [
+   "mingw-w64-sqlite",
+   "sqlite"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "",
+  "winget": "SQLite.SQLite",
+  "nuget": "sqlite",
+  "psgallery": "sqlite",
+  "heuristic": [
+   "winget",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 50,
+  "name": "ncurses",
+  "rdeps": 61,
+  "pkgbases": [
+   "mingw-w64-ncurses",
+   "ncurses"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "ncurses",
+  "winget": "",
+  "nuget": "ncurses",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 51,
+  "name": "vala",
+  "rdeps": 61,
+  "pkgbases": [
+   "mingw-w64-vala"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 52,
+  "name": "bzip2",
+  "rdeps": 59,
+  "pkgbases": [
+   "bzip2",
+   "mingw-w64-bzip2"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "bzip2",
+  "winget": "",
+  "nuget": "bzip2",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 53,
+  "name": "readline",
+  "rdeps": 59,
+  "pkgbases": [
+   "mingw-w64-readline",
+   "readline"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "readline",
+  "winget": "",
+  "nuget": "readline",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 54,
+  "name": "gdk-pixbuf2",
+  "rdeps": 56,
+  "pkgbases": [
+   "mingw-w64-gdk-pixbuf2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 55,
+  "name": "xz",
+  "rdeps": 56,
+  "pkgbases": [
+   "mingw-w64-xz",
+   "xz"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "xz",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 56,
+  "name": "openblas",
+  "rdeps": 55,
+  "pkgbases": [
+   "mingw-w64-openblas"
+  ],
+  "repo": "mingw",
+  "vcpkg": "openblas",
+  "winget": "",
+  "nuget": "openblas",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 57,
+  "name": "python-sphinx",
+  "rdeps": 55,
+  "pkgbases": [
+   "mingw-w64-python-sphinx",
+   "python-sphinx"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 58,
+  "name": "python-typing_extensions",
+  "rdeps": 54,
+  "pkgbases": [
+   "mingw-w64-python-typing_extensions"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 59,
+  "name": "qt6-svg",
+  "rdeps": 54,
+  "pkgbases": [
+   "mingw-w64-qt6-svg"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 60,
+  "name": "icu",
+  "rdeps": 53,
+  "pkgbases": [
+   "icu",
+   "mingw-w64-icu"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "icu",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 61,
+  "name": "libxslt",
+  "rdeps": 52,
+  "pkgbases": [
+   "libxslt",
+   "mingw-w64-libxslt"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "libxslt",
+  "winget": "",
+  "nuget": "libxslt",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 62,
+  "name": "qt5-base",
+  "rdeps": 52,
+  "pkgbases": [
+   "mingw-w64-qt5-base"
+  ],
+  "repo": "mingw",
+  "vcpkg": "qt5-base",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 63,
+  "name": "python-hatch-vcs",
+  "rdeps": 49,
+  "pkgbases": [
+   "mingw-w64-python-hatch-vcs",
+   "python-hatch-vcs"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 64,
+  "name": "flang",
+  "rdeps": 48,
+  "pkgbases": [
+   "mingw-w64-flang"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 65,
+  "name": "expat",
+  "rdeps": 46,
+  "pkgbases": [
+   "expat",
+   "mingw-w64-expat"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "expat",
+  "winget": "",
+  "nuget": "expat",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 66,
+  "name": "mpfr",
+  "rdeps": 45,
+  "pkgbases": [
+   "mingw-w64-mpfr",
+   "mpfr"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "mpfr",
+  "winget": "",
+  "nuget": "mpfr",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 67,
+  "name": "libwebp",
+  "rdeps": 44,
+  "pkgbases": [
+   "mingw-w64-libwebp"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libwebp",
+  "winget": "",
+  "nuget": "libwebp",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 68,
+  "name": "texinfo",
+  "rdeps": 43,
+  "pkgbases": [
+   "mingw-w64-texinfo",
+   "texinfo"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 69,
+  "name": "vulkan-headers",
+  "rdeps": 43,
+  "pkgbases": [
+   "mingw-w64-vulkan-headers"
+  ],
+  "repo": "mingw",
+  "vcpkg": "vulkan-headers",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 70,
+  "name": "pcre2",
+  "rdeps": 42,
+  "pkgbases": [
+   "mingw-w64-pcre2",
+   "pcre2"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "pcre2",
+  "winget": "",
+  "nuget": "pcre2",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 71,
+  "name": "ffmpeg",
+  "rdeps": 40,
+  "pkgbases": [
+   "mingw-w64-ffmpeg"
+  ],
+  "repo": "mingw",
+  "vcpkg": "ffmpeg",
+  "winget": "",
+  "nuget": "ffmpeg",
+  "psgallery": "ffmpeg",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 72,
+  "name": "go",
+  "rdeps": 40,
+  "pkgbases": [
+   "mingw-w64-go"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libgo",
+  "winget": "",
+  "nuget": "go",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 73,
+  "name": "fontconfig",
+  "rdeps": 39,
+  "pkgbases": [
+   "mingw-w64-fontconfig"
+  ],
+  "repo": "mingw",
+  "vcpkg": "fontconfig",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 74,
+  "name": "kconfig",
+  "rdeps": 39,
+  "pkgbases": [
+   "mingw-w64-kconfig"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kconfig",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 75,
+  "name": "ki18n",
+  "rdeps": 39,
+  "pkgbases": [
+   "mingw-w64-ki18n"
+  ],
+  "repo": "mingw",
+  "vcpkg": "ki18n",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 76,
+  "name": "fftw",
+  "rdeps": 38,
+  "pkgbases": [
+   "mingw-w64-fftw"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 77,
+  "name": "gnutls",
+  "rdeps": 38,
+  "pkgbases": [
+   "gnutls",
+   "mingw-w64-gnutls"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libgnutls",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 78,
+  "name": "python-pkgconfig",
+  "rdeps": 38,
+  "pkgbases": [
+   "mingw-w64-python-pkgconfig"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 79,
+  "name": "python-poetry-core",
+  "rdeps": 37,
+  "pkgbases": [
+   "mingw-w64-python-poetry-core",
+   "python-poetry-core"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 80,
+  "name": "kcoreaddons",
+  "rdeps": 36,
+  "pkgbases": [
+   "mingw-w64-kcoreaddons"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kcoreaddons",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 81,
+  "name": "python-passagemath-setup",
+  "rdeps": 36,
+  "pkgbases": [
+   "mingw-w64-python-passagemath-setup"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 82,
+  "name": "bash",
+  "rdeps": 35,
+  "pkgbases": [
+   "bash"
+  ],
+  "repo": "core",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "bash",
+  "psgallery": "bash",
+  "heuristic": [
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 83,
+  "name": "python-jinja",
+  "rdeps": 35,
+  "pkgbases": [
+   "mingw-w64-python-jinja",
+   "python-jinja"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 84,
+  "name": "python-passagemath-environment",
+  "rdeps": 35,
+  "pkgbases": [
+   "mingw-w64-python-passagemath-environment"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 85,
+  "name": "texlive-core",
+  "rdeps": 35,
+  "pkgbases": [
+   "mingw-w64-texlive-core"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 86,
+  "name": "eigen3",
+  "rdeps": 34,
+  "pkgbases": [
+   "mingw-w64-eigen3"
+  ],
+  "repo": "mingw",
+  "vcpkg": "eigen3",
+  "winget": "",
+  "nuget": "eigen3",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 87,
+  "name": "graphviz",
+  "rdeps": 34,
+  "pkgbases": [
+   "mingw-w64-graphviz"
+  ],
+  "repo": "mingw",
+  "vcpkg": "graphviz",
+  "winget": "Graphviz.Graphviz",
+  "nuget": "graphviz",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 88,
+  "name": "libusb",
+  "rdeps": 33,
+  "pkgbases": [
+   "mingw-w64-libusb"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libusb",
+  "winget": "",
+  "nuget": "libusb",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 89,
+  "name": "nasm",
+  "rdeps": 33,
+  "pkgbases": [
+   "mingw-w64-nasm",
+   "nasm"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "NASM.NASM",
+  "nuget": "nasm",
+  "psgallery": "",
+  "heuristic": [
+   "winget",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 90,
+  "name": "python-cysignals",
+  "rdeps": 33,
+  "pkgbases": [
+   "mingw-w64-python-cysignals"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 91,
+  "name": "python-requests",
+  "rdeps": 32,
+  "pkgbases": [
+   "mingw-w64-python-requests",
+   "python-requests"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 92,
+  "name": "docbook-xsl",
+  "rdeps": 31,
+  "pkgbases": [
+   "docbook-xsl",
+   "mingw-w64-docbook-xsl"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 93,
+  "name": "harfbuzz",
+  "rdeps": 31,
+  "pkgbases": [
+   "mingw-w64-harfbuzz"
+  ],
+  "repo": "mingw",
+  "vcpkg": "harfbuzz",
+  "winget": "",
+  "nuget": "harfbuzz",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 94,
+  "name": "python-docutils",
+  "rdeps": 31,
+  "pkgbases": [
+   "mingw-w64-python-docutils",
+   "python-docutils"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 95,
+  "name": "gperf",
+  "rdeps": 30,
+  "pkgbases": [
+   "gperf",
+   "mingw-w64-gperf"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "gperf",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 96,
+  "name": "libarchive",
+  "rdeps": 30,
+  "pkgbases": [
+   "libarchive",
+   "mingw-w64-libarchive"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libarchive",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 97,
+  "name": "lz4",
+  "rdeps": 30,
+  "pkgbases": [
+   "lz4",
+   "mingw-w64-lz4"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "lz4",
+  "winget": "",
+  "nuget": "lz4",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 98,
+  "name": "openjpeg2",
+  "rdeps": 30,
+  "pkgbases": [
+   "mingw-w64-openjpeg2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 99,
+  "name": "qt5-declarative",
+  "rdeps": 30,
+  "pkgbases": [
+   "mingw-w64-qt5-declarative"
+  ],
+  "repo": "mingw",
+  "vcpkg": "qt5-declarative",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 100,
+  "name": "hdf5",
+  "rdeps": 29,
+  "pkgbases": [
+   "mingw-w64-hdf5"
+  ],
+  "repo": "mingw",
+  "vcpkg": "hdf5",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 101,
+  "name": "kwidgetsaddons",
+  "rdeps": 29,
+  "pkgbases": [
+   "mingw-w64-kwidgetsaddons"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kwidgetsaddons",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 102,
+  "name": "lcms2",
+  "rdeps": 29,
+  "pkgbases": [
+   "mingw-w64-lcms2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 103,
+  "name": "python-pygments",
+  "rdeps": 29,
+  "pkgbases": [
+   "mingw-w64-python-pygments",
+   "python-pygments"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 104,
+  "name": "gtk4",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-gtk4"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 105,
+  "name": "mpc",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-mpc",
+   "mpc"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "mpc",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 106,
+  "name": "nlohmann-json",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-nlohmann-json"
+  ],
+  "repo": "mingw",
+  "vcpkg": "nlohmann-json",
+  "winget": "",
+  "nuget": "nlohmann-json",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 107,
+  "name": "nodejs",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-nodejs"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "nodejs",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 108,
+  "name": "python-pillow",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-python-pillow"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 109,
+  "name": "python-yaml",
+  "rdeps": 28,
+  "pkgbases": [
+   "mingw-w64-python-yaml",
+   "python-yaml"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 110,
+  "name": "libsndfile",
+  "rdeps": 27,
+  "pkgbases": [
+   "mingw-w64-libsndfile"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libsndfile",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 111,
+  "name": "swig",
+  "rdeps": 27,
+  "pkgbases": [
+   "mingw-w64-swig",
+   "swig"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "SWIG.SWIG",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "winget"
+  ]
+ },
+ {
+  "rank": 112,
+  "name": "libvorbis",
+  "rdeps": 26,
+  "pkgbases": [
+   "mingw-w64-libvorbis"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libvorbis",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 113,
+  "name": "python-hatch-fancy-pypi-readme",
+  "rdeps": 26,
+  "pkgbases": [
+   "mingw-w64-python-hatch-fancy-pypi-readme",
+   "python-hatch-fancy-pypi-readme"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 114,
+  "name": "fmt",
+  "rdeps": 25,
+  "pkgbases": [
+   "fmt",
+   "mingw-w64-fmt"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "fmt",
+  "winget": "",
+  "nuget": "fmt",
+  "psgallery": "fmt",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 115,
+  "name": "gprbuild",
+  "rdeps": 25,
+  "pkgbases": [
+   "mingw-w64-gprbuild"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 116,
+  "name": "grpc",
+  "rdeps": 25,
+  "pkgbases": [
+   "mingw-w64-grpc"
+  ],
+  "repo": "mingw",
+  "vcpkg": "grpc",
+  "winget": "",
+  "nuget": "grpc",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 117,
+  "name": "poppler",
+  "rdeps": 25,
+  "pkgbases": [
+   "mingw-w64-poppler"
+  ],
+  "repo": "mingw",
+  "vcpkg": "poppler",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 118,
+  "name": "postgresql",
+  "rdeps": 25,
+  "pkgbases": [
+   "mingw-w64-postgresql"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "PostgreSQL.PostgreSQL",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "winget"
+  ]
+ },
+ {
+  "rank": 119,
+  "name": "qt6-5compat",
+  "rdeps": 25,
+  "pkgbases": [
+   "mingw-w64-qt6-5compat"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 120,
+  "name": "libffi",
+  "rdeps": 24,
+  "pkgbases": [
+   "libffi",
+   "mingw-w64-libffi"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libffi",
+  "winget": "",
+  "nuget": "libffi",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 121,
+  "name": "protobuf",
+  "rdeps": 24,
+  "pkgbases": [
+   "mingw-w64-protobuf",
+   "protobuf"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "protobuf",
+  "winget": "",
+  "nuget": "protobuf",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 122,
+  "name": "qt6-multimedia",
+  "rdeps": 24,
+  "pkgbases": [
+   "mingw-w64-qt6-multimedia"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 123,
+  "name": "gi-docgen",
+  "rdeps": 23,
+  "pkgbases": [
+   "mingw-w64-gi-docgen"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 124,
+  "name": "libtool",
+  "rdeps": 23,
+  "pkgbases": [
+   "libtool",
+   "mingw-w64-libtool"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 125,
+  "name": "python-colorama",
+  "rdeps": 23,
+  "pkgbases": [
+   "mingw-w64-python-colorama",
+   "python-colorama"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 126,
+  "name": "python-six",
+  "rdeps": 23,
+  "pkgbases": [
+   "mingw-w64-python-six",
+   "python-six"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 127,
+  "name": "vulkan-loader",
+  "rdeps": 23,
+  "pkgbases": [
+   "mingw-w64-vulkan-loader"
+  ],
+  "repo": "mingw",
+  "vcpkg": "vulkan-loader",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 128,
+  "name": "brotli",
+  "rdeps": 22,
+  "pkgbases": [
+   "brotli",
+   "mingw-w64-brotli"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "brotli",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 129,
+  "name": "glew",
+  "rdeps": 22,
+  "pkgbases": [
+   "mingw-w64-glew"
+  ],
+  "repo": "mingw",
+  "vcpkg": "glew",
+  "winget": "",
+  "nuget": "glew",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 130,
+  "name": "hicolor-icon-theme",
+  "rdeps": 22,
+  "pkgbases": [
+   "mingw-w64-hicolor-icon-theme"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 131,
+  "name": "gst-plugins-base",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-gst-plugins-base"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 132,
+  "name": "gstreamer",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-gstreamer"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gstreamer",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 133,
+  "name": "kcolorscheme",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-kcolorscheme"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kcolorscheme",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 134,
+  "name": "libgcrypt",
+  "rdeps": 21,
+  "pkgbases": [
+   "libgcrypt",
+   "mingw-w64-libgcrypt"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libgcrypt",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 135,
+  "name": "libxcrypt",
+  "rdeps": 21,
+  "pkgbases": [
+   "libxcrypt"
+  ],
+  "repo": "core",
+  "vcpkg": "libxcrypt",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 136,
+  "name": "openexr",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-openexr"
+  ],
+  "repo": "mingw",
+  "vcpkg": "openexr",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 137,
+  "name": "pygobject",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-pygobject"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 138,
+  "name": "python-lxml",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-python-lxml",
+   "python-lxml"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 139,
+  "name": "python-wheel",
+  "rdeps": 21,
+  "pkgbases": [
+   "mingw-w64-python-wheel"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 140,
+  "name": "librevenge",
+  "rdeps": 20,
+  "pkgbases": [
+   "mingw-w64-librevenge"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 141,
+  "name": "librsvg",
+  "rdeps": 20,
+  "pkgbases": [
+   "mingw-w64-librsvg"
+  ],
+  "repo": "mingw",
+  "vcpkg": "librsvg",
+  "winget": "",
+  "nuget": "librsvg",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 142,
+  "name": "pybind11",
+  "rdeps": 20,
+  "pkgbases": [
+   "mingw-w64-pybind11"
+  ],
+  "repo": "mingw",
+  "vcpkg": "pybind11",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 143,
+  "name": "python-click",
+  "rdeps": 20,
+  "pkgbases": [
+   "mingw-w64-python-click"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 144,
+  "name": "python-scipy",
+  "rdeps": 20,
+  "pkgbases": [
+   "mingw-w64-python-scipy"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 145,
+  "name": "help2man",
+  "rdeps": 19,
+  "pkgbases": [
+   "help2man"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 146,
+  "name": "kconfigwidgets",
+  "rdeps": 19,
+  "pkgbases": [
+   "mingw-w64-kconfigwidgets"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kconfigwidgets",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 147,
+  "name": "libgit2",
+  "rdeps": 19,
+  "pkgbases": [
+   "libgit2",
+   "mingw-w64-libgit2"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "libgit2",
+  "winget": "",
+  "nuget": "libgit2",
+  "psgallery": "libgit2",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 148,
+  "name": "libssh2",
+  "rdeps": 19,
+  "pkgbases": [
+   "libssh2",
+   "mingw-w64-libssh2"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libssh2",
+  "winget": "",
+  "nuget": "libssh2",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 149,
+  "name": "openal",
+  "rdeps": 19,
+  "pkgbases": [
+   "mingw-w64-openal"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 150,
+  "name": "python-pytest",
+  "rdeps": 19,
+  "pkgbases": [
+   "mingw-w64-python-pytest",
+   "python-pytest"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 151,
+  "name": "tcl",
+  "rdeps": 19,
+  "pkgbases": [
+   "mingw-w64-tcl",
+   "tcl"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "tcl",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 152,
+  "name": "itstool",
+  "rdeps": 18,
+  "pkgbases": [
+   "itstool",
+   "mingw-w64-itstool"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 153,
+  "name": "kio",
+  "rdeps": 18,
+  "pkgbases": [
+   "mingw-w64-kio"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 154,
+  "name": "libogg",
+  "rdeps": 18,
+  "pkgbases": [
+   "mingw-w64-libogg"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libogg",
+  "winget": "",
+  "nuget": "libogg",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 155,
+  "name": "lua",
+  "rdeps": 18,
+  "pkgbases": [
+   "lua",
+   "mingw-w64-lua"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "lua",
+  "winget": "",
+  "nuget": "lua",
+  "psgallery": "lua",
+  "heuristic": [
+   "vcpkg",
+   "nuget",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 156,
+  "name": "maturin",
+  "rdeps": 18,
+  "pkgbases": [
+   "maturin",
+   "mingw-w64-maturin"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 157,
+  "name": "python-pbr",
+  "rdeps": 18,
+  "pkgbases": [
+   "mingw-w64-python-pbr"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 158,
+  "name": "groff",
+  "rdeps": 17,
+  "pkgbases": [
+   "groff"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 159,
+  "name": "kxmlgui",
+  "rdeps": 17,
+  "pkgbases": [
+   "mingw-w64-kxmlgui"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 160,
+  "name": "libmariadbclient",
+  "rdeps": 17,
+  "pkgbases": [
+   "mingw-w64-libmariadbclient"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 161,
+  "name": "libsystre",
+  "rdeps": 17,
+  "pkgbases": [
+   "mingw-w64-libsystre"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 162,
+  "name": "msmpi",
+  "rdeps": 17,
+  "pkgbases": [
+   "mingw-w64-msmpi"
+  ],
+  "repo": "mingw",
+  "vcpkg": "msmpi",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 163,
+  "name": "ca-certificates",
+  "rdeps": 16,
+  "pkgbases": [
+   "ca-certificates",
+   "mingw-w64-ca-certificates"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 164,
+  "name": "flac",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-flac"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libflac",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 165,
+  "name": "icoutils",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-icoutils"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 166,
+  "name": "intltool",
+  "rdeps": 16,
+  "pkgbases": [
+   "intltool"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 167,
+  "name": "json-glib",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-json-glib"
+  ],
+  "repo": "mingw",
+  "vcpkg": "json-glib",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 168,
+  "name": "kcrash",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-kcrash"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kcrash",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 169,
+  "name": "nettle",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-nettle",
+   "nettle"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "nettle",
+  "winget": "",
+  "nuget": "nettle",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 170,
+  "name": "python-dateutil",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-python-dateutil"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 171,
+  "name": "python-passagemath-categories",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-python-passagemath-categories"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 172,
+  "name": "python-urllib3",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-python-urllib3",
+   "python-urllib3"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 173,
+  "name": "tbb",
+  "rdeps": 16,
+  "pkgbases": [
+   "mingw-w64-tbb"
+  ],
+  "repo": "mingw",
+  "vcpkg": "tbb",
+  "winget": "",
+  "nuget": "tbb",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 174,
+  "name": "asciidoc",
+  "rdeps": 15,
+  "pkgbases": [
+   "asciidoc",
+   "mingw-w64-asciidoc"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 175,
+  "name": "autoconf-archive",
+  "rdeps": 15,
+  "pkgbases": [
+   "autoconf-archive"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 176,
+  "name": "fast_float",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-fast_float"
+  ],
+  "repo": "mingw",
+  "vcpkg": "fast-float",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 177,
+  "name": "fribidi",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-fribidi"
+  ],
+  "repo": "mingw",
+  "vcpkg": "fribidi",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 178,
+  "name": "imath",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-imath"
+  ],
+  "repo": "mingw",
+  "vcpkg": "imath",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 179,
+  "name": "isl",
+  "rdeps": 15,
+  "pkgbases": [
+   "isl",
+   "mingw-w64-isl"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 180,
+  "name": "libjxl",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-libjxl"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libjxl",
+  "winget": "libjxl.libjxl",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget"
+  ]
+ },
+ {
+  "rank": 181,
+  "name": "meson-python",
+  "rdeps": 15,
+  "pkgbases": [
+   "meson-python",
+   "mingw-w64-meson-python"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 182,
+  "name": "opencl-headers",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-opencl-headers"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 183,
+  "name": "opus",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-opus"
+  ],
+  "repo": "mingw",
+  "vcpkg": "opus",
+  "winget": "",
+  "nuget": "opus",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 184,
+  "name": "portaudio",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-portaudio"
+  ],
+  "repo": "mingw",
+  "vcpkg": "portaudio",
+  "winget": "",
+  "nuget": "portaudio",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 185,
+  "name": "python-platformdirs",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-python-platformdirs"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 186,
+  "name": "python-traitlets",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-python-traitlets"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 187,
+  "name": "qt6-shadertools",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-qt6-shadertools"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 188,
+  "name": "sdl3",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-sdl3"
+  ],
+  "repo": "mingw",
+  "vcpkg": "sdl3",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 189,
+  "name": "wxWidgets3.2",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-wxWidgets3.2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 190,
+  "name": "xmlto",
+  "rdeps": 15,
+  "pkgbases": [
+   "mingw-w64-xmlto",
+   "xmlto"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 191,
+  "name": "abseil-cpp",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-abseil-cpp"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 192,
+  "name": "ghostscript",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-ghostscript"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "ghostscript",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 193,
+  "name": "giflib",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-giflib"
+  ],
+  "repo": "mingw",
+  "vcpkg": "giflib",
+  "winget": "",
+  "nuget": "giflib",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 194,
+  "name": "gnatcoll-core",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-gnatcoll-core"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 195,
+  "name": "gpgme",
+  "rdeps": 14,
+  "pkgbases": [
+   "gpgme",
+   "mingw-w64-gpgme"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "gpgme",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 196,
+  "name": "gsettings-desktop-schemas",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-gsettings-desktop-schemas"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 197,
+  "name": "kdoctools",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-kdoctools"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 198,
+  "name": "libidn2",
+  "rdeps": 14,
+  "pkgbases": [
+   "libidn2",
+   "mingw-w64-libidn2"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libidn2",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 199,
+  "name": "libsoup3",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-libsoup3"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 200,
+  "name": "libunistring",
+  "rdeps": 14,
+  "pkgbases": [
+   "libunistring",
+   "mingw-w64-libunistring"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libunistring",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 201,
+  "name": "libzip",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-libzip"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libzip",
+  "winget": "",
+  "nuget": "libzip",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 202,
+  "name": "netcdf",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-netcdf"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 203,
+  "name": "python-cffi",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-python-cffi",
+   "python-cffi"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 204,
+  "name": "python-cryptography",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-python-cryptography",
+   "python-cryptography"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 205,
+  "name": "python-scikit-build-core",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-python-scikit-build-core"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 206,
+  "name": "qt5-tools",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-qt5-tools"
+  ],
+  "repo": "mingw",
+  "vcpkg": "qt5-tools",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 207,
+  "name": "ruby",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-ruby",
+   "ruby"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "ruby",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 208,
+  "name": "tk",
+  "rdeps": 14,
+  "pkgbases": [
+   "mingw-w64-tk"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 209,
+  "name": "adwaita-icon-theme",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-adwaita-icon-theme"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 210,
+  "name": "aws-c-common",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-aws-c-common"
+  ],
+  "repo": "mingw",
+  "vcpkg": "aws-c-common",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 211,
+  "name": "binutils",
+  "rdeps": 13,
+  "pkgbases": [
+   "binutils",
+   "mingw-w64-binutils"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 212,
+  "name": "cppunit",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-cppunit"
+  ],
+  "repo": "mingw",
+  "vcpkg": "cppunit",
+  "winget": "",
+  "nuget": "cppunit",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 213,
+  "name": "gsl",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-gsl"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gsl",
+  "winget": "",
+  "nuget": "gsl",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 214,
+  "name": "karchive",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-karchive"
+  ],
+  "repo": "mingw",
+  "vcpkg": "karchive",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 215,
+  "name": "kcompletion",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-kcompletion"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kcompletion",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 216,
+  "name": "kguiaddons",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-kguiaddons"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kguiaddons",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 217,
+  "name": "libc++",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-libc++"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 218,
+  "name": "libheif",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-libheif"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libheif",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 219,
+  "name": "python-attrs",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-python-attrs"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 220,
+  "name": "python-certifi",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-python-certifi",
+   "python-certifi"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 221,
+  "name": "python-memory-allocator",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-python-memory-allocator"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 222,
+  "name": "python-pdm-backend",
+  "rdeps": 13,
+  "pkgbases": [
+   "mingw-w64-python-pdm-backend"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 223,
+  "name": "cross-gcc",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-cross-gcc"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 224,
+  "name": "cyrus-sasl",
+  "rdeps": 12,
+  "pkgbases": [
+   "cyrus-sasl",
+   "mingw-w64-cyrus-sasl"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "cyrus-sasl",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 225,
+  "name": "kitemviews",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-kitemviews"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kitemviews",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 226,
+  "name": "metis",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-metis"
+  ],
+  "repo": "mingw",
+  "vcpkg": "metis",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "metis",
+  "heuristic": [
+   "vcpkg",
+   "psgallery"
+  ]
+ },
+ {
+  "rank": 227,
+  "name": "opencl-icd",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-opencl-icd"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 228,
+  "name": "proj",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-proj"
+  ],
+  "repo": "mingw",
+  "vcpkg": "proj",
+  "winget": "",
+  "nuget": "proj",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 229,
+  "name": "pugixml",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-pugixml"
+  ],
+  "repo": "mingw",
+  "vcpkg": "pugixml",
+  "winget": "",
+  "nuget": "pugixml",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 230,
+  "name": "python-matplotlib",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-python-matplotlib"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 231,
+  "name": "python-passagemath-modules",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-python-passagemath-modules"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 232,
+  "name": "python-rich",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-python-rich"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 233,
+  "name": "python-tzdata",
+  "rdeps": 12,
+  "pkgbases": [
+   "mingw-w64-python-tzdata"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 234,
+  "name": "diffutils",
+  "rdeps": 11,
+  "pkgbases": [
+   "diffutils",
+   "mingw-w64-diffutils"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 235,
+  "name": "flex",
+  "rdeps": 11,
+  "pkgbases": [
+   "flex"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "flex",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 236,
+  "name": "fluidsynth",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-fluidsynth"
+  ],
+  "repo": "mingw",
+  "vcpkg": "fluidsynth",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 237,
+  "name": "freeglut",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-freeglut"
+  ],
+  "repo": "mingw",
+  "vcpkg": "freeglut",
+  "winget": "",
+  "nuget": "freeglut",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 238,
+  "name": "glfw",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-glfw"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "glfw",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 239,
+  "name": "glm",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-glm"
+  ],
+  "repo": "mingw",
+  "vcpkg": "glm",
+  "winget": "",
+  "nuget": "glm",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 240,
+  "name": "gnatcoll-bindings",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-gnatcoll-bindings"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 241,
+  "name": "jasper",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-jasper"
+  ],
+  "repo": "mingw",
+  "vcpkg": "jasper",
+  "winget": "",
+  "nuget": "jasper",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 242,
+  "name": "kwindowsystem",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-kwindowsystem"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kwindowsystem",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 243,
+  "name": "libdeflate",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-libdeflate"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libdeflate",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 244,
+  "name": "libgee",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-libgee"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 245,
+  "name": "libgpg-error",
+  "rdeps": 11,
+  "pkgbases": [
+   "libgpg-error",
+   "mingw-w64-libgpg-error"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "libgpg-error",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 246,
+  "name": "lua51",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-lua51"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "lua51",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 247,
+  "name": "python-jupyter_core",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-python-jupyter_core"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 248,
+  "name": "python-passagemath-objects",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-python-passagemath-objects"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 249,
+  "name": "qt6-serialport",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-qt6-serialport"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 250,
+  "name": "rust-bindgen",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-rust-bindgen"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 251,
+  "name": "sed",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-sed",
+   "sed"
+  ],
+  "repo": "mingw+core",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "sed",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 252,
+  "name": "suitesparse",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-suitesparse"
+  ],
+  "repo": "mingw",
+  "vcpkg": "suitesparse",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 253,
+  "name": "utf8cpp",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-utf8cpp"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 254,
+  "name": "xmlada",
+  "rdeps": 11,
+  "pkgbases": [
+   "mingw-w64-xmlada"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 255,
+  "name": "at-spi2-core",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-at-spi2-core"
+  ],
+  "repo": "mingw",
+  "vcpkg": "at-spi2-core",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 256,
+  "name": "c-ares",
+  "rdeps": 10,
+  "pkgbases": [
+   "c-ares",
+   "mingw-w64-c-ares"
+  ],
+  "repo": "core+mingw",
+  "vcpkg": "c-ares",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 257,
+  "name": "gdal",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-gdal"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gdal",
+  "winget": "",
+  "nuget": "gdal",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 258,
+  "name": "glslang",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-glslang"
+  ],
+  "repo": "mingw",
+  "vcpkg": "glslang",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 259,
+  "name": "kiconthemes",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-kiconthemes"
+  ],
+  "repo": "mingw",
+  "vcpkg": "kiconthemes",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 260,
+  "name": "ktextwidgets",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-ktextwidgets"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 261,
+  "name": "libadwaita",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-libadwaita"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libadwaita",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 262,
+  "name": "libavif",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-libavif"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libavif",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 263,
+  "name": "libtheora",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-libtheora"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libtheora",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 264,
+  "name": "nanobind",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-nanobind"
+  ],
+  "repo": "mingw",
+  "vcpkg": "nanobind",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 265,
+  "name": "opencascade",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-opencascade"
+  ],
+  "repo": "mingw",
+  "vcpkg": "opencascade",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 266,
+  "name": "patch",
+  "rdeps": 10,
+  "pkgbases": [
+   "patch"
+  ],
+  "repo": "extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 267,
+  "name": "python-flask",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-python-flask"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 268,
+  "name": "python-gmpy2",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-python-gmpy2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 269,
+  "name": "python-idna",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-python-idna",
+   "python-idna"
+  ],
+  "repo": "mingw+extra",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 270,
+  "name": "python-jsonschema",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-python-jsonschema"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 271,
+  "name": "python-pydantic",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-python-pydantic"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 272,
+  "name": "qt5-multimedia",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-qt5-multimedia"
+  ],
+  "repo": "mingw",
+  "vcpkg": "qt5-multimedia",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 273,
+  "name": "shaderc",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-shaderc"
+  ],
+  "repo": "mingw",
+  "vcpkg": "shaderc",
+  "winget": "",
+  "nuget": "shaderc",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 274,
+  "name": "shared-mime-info",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-shared-mime-info"
+  ],
+  "repo": "mingw",
+  "vcpkg": "shared-mime-info",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 275,
+  "name": "tree-sitter",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-tree-sitter"
+  ],
+  "repo": "mingw",
+  "vcpkg": "tree-sitter",
+  "winget": "",
+  "nuget": "tree-sitter",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 276,
+  "name": "vss-text",
+  "rdeps": 10,
+  "pkgbases": [
+   "mingw-w64-vss-text"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 277,
+  "name": "aspell",
+  "rdeps": 9,
+  "pkgbases": [
+   "aspell",
+   "mingw-w64-aspell"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "aspell",
+  "psgallery": "",
+  "heuristic": [
+   "nuget"
+  ]
+ },
+ {
+  "rank": 278,
+  "name": "assimp",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-assimp"
+  ],
+  "repo": "mingw",
+  "vcpkg": "assimp",
+  "winget": "",
+  "nuget": "assimp",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 279,
+  "name": "cargo-c",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-cargo-c"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 280,
+  "name": "dbus",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-dbus"
+  ],
+  "repo": "mingw",
+  "vcpkg": "dbus",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 281,
+  "name": "desktop-file-utils",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-desktop-file-utils"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 282,
+  "name": "double-conversion",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-double-conversion"
+  ],
+  "repo": "mingw",
+  "vcpkg": "double-conversion",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 283,
+  "name": "exiv2",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-exiv2"
+  ],
+  "repo": "mingw",
+  "vcpkg": "exiv2",
+  "winget": "Exiv2.Exiv2",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "winget"
+  ]
+ },
+ {
+  "rank": 284,
+  "name": "geos",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-geos"
+  ],
+  "repo": "mingw",
+  "vcpkg": "geos",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 285,
+  "name": "gtest",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-gtest"
+  ],
+  "repo": "mingw",
+  "vcpkg": "gtest",
+  "winget": "",
+  "nuget": "gtest",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 286,
+  "name": "headers",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-headers"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 287,
+  "name": "hunspell",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-hunspell"
+  ],
+  "repo": "mingw",
+  "vcpkg": "hunspell",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 288,
+  "name": "iso-codes",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-iso-codes"
+  ],
+  "repo": "mingw",
+  "vcpkg": "iso-codes",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 289,
+  "name": "jsoncpp",
+  "rdeps": 9,
+  "pkgbases": [
+   "jsoncpp",
+   "mingw-w64-jsoncpp"
+  ],
+  "repo": "extra+mingw",
+  "vcpkg": "jsoncpp",
+  "winget": "",
+  "nuget": "jsoncpp",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg",
+   "nuget"
+  ]
+ },
+ {
+  "rank": 290,
+  "name": "knotifications",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-knotifications"
+  ],
+  "repo": "mingw",
+  "vcpkg": "knotifications",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 291,
+  "name": "libgd",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-libgd"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libgd",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 292,
+  "name": "libgpr",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-libgpr"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 293,
+  "name": "libraw",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-libraw"
+  ],
+  "repo": "mingw",
+  "vcpkg": "libraw",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 294,
+  "name": "mpg123",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-mpg123"
+  ],
+  "repo": "mingw",
+  "vcpkg": "mpg123",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 295,
+  "name": "nss",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-nss"
+  ],
+  "repo": "mingw",
+  "vcpkg": "nss",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 296,
+  "name": "opusfile",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-opusfile"
+  ],
+  "repo": "mingw",
+  "vcpkg": "opusfile",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": [
+   "vcpkg"
+  ]
+ },
+ {
+  "rank": 297,
+  "name": "pycairo",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-pycairo"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 298,
+  "name": "python-jupyter_client",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-python-jupyter_client"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 299,
+  "name": "python-mako",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-python-mako"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ },
+ {
+  "rank": 300,
+  "name": "python-psutil",
+  "rdeps": 9,
+  "pkgbases": [
+   "mingw-w64-python-psutil"
+  ],
+  "repo": "mingw",
+  "vcpkg": "",
+  "winget": "",
+  "nuget": "",
+  "psgallery": "",
+  "heuristic": []
+ }
+]

@@ -16,7 +16,7 @@
 | mingw32 | 66 | 113 | 1041 | 861 |
 
 - Arch view: `repos/core` 89 (closure of `base`), `repos/extra` 506, `repos/mingw` 3389; 24 pkgbases have a CachyOS overlay in `../src/third_party/CachyOS-PKGBUILDS`.
-- vcpkg: 877 / 3982 pkgbases map to a port in `../src/third_party/vcpkg/ports` ([../vcpkg/MAPPING.md](../vcpkg/MAPPING.md), name heuristic).
+- vcpkg: 877 / 3982 pkgbases map to a port in `../src/third_party/vcpkg/ports` ([../formats/vcpkg/MAPPING.md](../formats/vcpkg/MAPPING.md), name heuristic).
 - Code outlines: `graph/outline/<repo>.md` (31, `ay ingest --outline`).
 - Site: `site/dist/index.html` (`just site`, `just serve` -> http://localhost:4380).
 
@@ -25,4 +25,4 @@
 
 ## Limits
 - PKGBUILD parsing is static (bash conditions ignored, union of branches; `provides` not resolved to edges).
-- `makepkg/` and `vcpkg/triplets` are [NV]: nothing built (owner rule), validation goes to prd.
+- `buildsys/makepkg/` and `formats/vcpkg/triplets` are [NV]: nothing built (owner rule), validation goes to prd.

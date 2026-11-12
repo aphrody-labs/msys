@@ -1,0 +1,15 @@
+# Single source of naming/locations (rule: C:\labs\docs\ROOT-ARCHITECTURE.md "identity.toml").
+# Everything renamable/relocatable: tools read this file; no product name or absolute path elsewhere.
+name = "msys"                      # repo / distro short name
+title = "Aphrody MSYS"             # display name (site, images)
+org = "aphrody-labs"               # git org for forks
+git_remote = "https://github.com/aphrody-labs/msys.git"
+pkg_prefix = "aphrody"             # prefix for our own pacman pkgs (aphrody-settings, aphrody-keyring...)
+winget_publisher = "AphrodyLabs"   # winget id prefix for manifests we emit
+nuget_prefix = "Aphrody"           # NuGet id prefix
+psgallery_prefix = "Aphrody"       # PowerShell module prefix
+site_port = 4380
+
+[paths]                            # relative to repo root; env overrides: SRC_ROOT, LABS_ROOT
+src = "../src"
+labs = "../labs"

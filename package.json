@@ -8,8 +8,10 @@
   ],
   "scripts": {
     "graph": "bun tools/pkgbuild-graph.ts && bun tools/vcpkg-map.ts",
+    "xmap": "bun tools/xmap.ts",
     "site": "bun tools/site.ts",
-    "serve": "bun tools/site.ts --serve"
+    "serve": "bun tools/site.ts --serve",
+    "check": "bun tools/check-structure.ts"
   },
   "license": "MIT OR Apache-2.0",
   "repository": {

@@ -1,0 +1,15 @@
+# Curated cross-ecosystem ids; win over tools/xmap.ts heuristics. Key = pkgbase. Empty string = "known: none".
+[zlib]
+nuget = ""
+["python3.14"]
+winget = "Python.Python.3.14"
+[git]
+winget = "Git.Git"
+[cmake]
+winget = "Kitware.CMake"
+[llvm]
+winget = "LLVM.LLVM"
+[ninja]
+winget = "Ninja-build.Ninja"
+[7zip]
+winget = "7zip.7zip"

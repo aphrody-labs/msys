@@ -3,3 +3,4 @@
 /graph/graph.json
 /graph/graph.dot
 node_modules/
+/tools/*.log

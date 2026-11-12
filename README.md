@@ -1,17 +1,20 @@
-# C:\msys
+# msys
 
-Source/research monorepo for the MSYS2 / MinGW-w64 / Cygwin ecosystem, organised like an Arch package tree (pacman, PKGBUILD, makepkg, FHS), LLVM-pure and CachyOS-tuned. Not a runtime install: no MSYS2 on PATH, no compilation on the PC (heavy work: `just prd '<cmd>'`).
+Source/metadata distribution for Windows built like Arch Linux (pacman, PKGBUILD, ABS, devtools, archiso), tuned like CachyOS (x86-64-v3/v4/znver4, clang, LTO/PGO/AutoFDO), using MSYS2 patches (msys2-runtime, environments), with two-way bridges to winget/DSC v3, PowerShell 7/PSGallery, NuGet/.NET, vcpkg and MSIX. Names and roots come from `identity.toml`. Nothing is compiled on the owner PC (heavy work: `just prd '<cmd>'` on fr2). No WSL runtime.
 
-| dir | content |
+Design: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) (layers, tree, ADRs, checklist). Cross-ecosystem map: [formats/xmap/XMAP.md](formats/xmap/XMAP.md).
+
+| layer | dirs |
 |---|---|
-| `third_party/<name>/` | partial clones (`--filter=blob:none`) of our forks; `origin` = aphrody-labs, `upstream` = original (gitignored, `just fetch`) |
-| `repos/{core,extra,mingw}/<pkgbase>/meta.json` | Arch-style repo view, generated; pointers to the PKGBUILD in `third_party/` and to the CachyOS overlay in `../src/third_party/CachyOS-PKGBUILDS` |
-| `makepkg/` | CachyOS-style makepkg drop-ins: clang, -O3, ThinLTO, x86-64-v3 / v4 / znver4 |
-| `pins.toml` | external references (src/labs), never copied; src/third_party wins on conflict |
-| `docs/` | `INDEX.md`, `MATRIX.md`, `MATRIX-PACKAGES.md` (generated), `INVENTORY.md` |
-| `graph/` | `pkgbuild-graph.ts` output (`STATS.md`, `stats.json`; `graph.json`/`graph.dot` regenerated) and `outline/<repo>.md` (`ay ingest --outline`) |
-| `vcpkg/` | manifest, overlay config reusing `../labs/infra/vcpkg/triplets`, MinGW triplet, `MAPPING.md` |
-| `toolchain/` | LLVM-pure notes, pin `../labs/third_party/toolchain-157.toml` |
-| `site/` | `bun tools/site.ts` -> `site/dist/index.html` (+ `graph.html` viewer) |
+| 0 | `identity.toml`, `pins.toml` (refs into src/labs, never copied; src/third_party wins) |
+| 1 | `toolchains/` llvm, msvc, gnu, zig, rust, dotnet |
+| 2 | `runtimes/` msys2-runtime, crt, cxx |
+| 3 | `environments/envs.toml` |
+| 4 | `buildsys/` makepkg, devtools, pkgbuild |
+| 5 | `repos/` core, extra, mingw (generated meta.json pointers) |
+| 6 | `formats/` pacman, vcpkg, winget, nuget, psgallery, msix, xmap; `compat/` posix, windows |
+| 7 | `distribution/` keyring, mirrors, images, settings |
+| 8 | `docs/` (+ `adr/`), `graph/`, `site/`, `ci/`, `tools/` |
+| - | `third_party/` partial clones of aphrody-labs forks (gitignored, `just fetch`) |
 
-`just fetch | forks | sync | graph | outline | site | serve`.
+`just fetch | forks | sync | graph | xmap | outline | site | serve | check | all`.

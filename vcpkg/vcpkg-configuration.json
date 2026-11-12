@@ -1,4 +1,0 @@
-{
-  "overlay-triplets": ["../../labs/infra/vcpkg/triplets", "triplets"],
-  "overlay-ports": []
-}
